@@ -1,0 +1,59 @@
+==========================================================
+  K & T QUANT LABS - HORMUZ CRISIS EXECUTIVE SUMMARY
+  Generated: 27 March 2026 01:08
+==========================================================
+
+  OIL MARKET
+  Brent : $106.12/bbl  (+18.7% since Feb 28)
+  WTI   : $93.61/bbl   Peak: $119.5/bbl
+  Transit drop : -81% within 24h (Lloyds List)
+
+  GARCH (Brent Crude)
+  Ann vol  : 81.8%
+  1d VaR   : 15.36%  = $16.30/bbl
+  CVaR     : 19.28%
+
+  INSURANCE
+  0.030% to 0.750%  (25x surge)
+  $36,000 to $900,000 per VLCC voyage
+  Expected losses: $2.05B
+
+  ENERGY EQUITIES
+  Ticker  Beta   E[Ret]      Worst
+----------------------------------------
+  XOM     0.65    +23.56%      +9.8%
+  CVX     0.70    +25.37%     +10.5%
+  BP      0.72    +26.10%     +10.8%
+  SHEL    0.68    +24.65%     +10.2%
+  COP     0.78    +28.27%     +11.7%
+  OXY     0.85    +30.81%     +12.8%
+
+  SR 11-7 BACKTESTS
+  Asset   Persist  Viols  Rate    p-val   Result
+----------------------------------------------------
+  BZ=F    0.985    8      0.75    0.3949  PASS
+  CL=F    0.975    8      0.75    0.3966  PASS
+  NG=F    0.835    4      0.38    0.0191  FAIL
+  GC=F    0.978    5      0.47    0.0529  PASS
+  XOM     0.989    6      0.57    0.1220  PASS
+  CVX     0.857    6      0.57    0.1220  PASS
+  BP      0.865    6      0.57    0.1220  PASS
+  SHEL    0.955    6      0.57    0.1220  PASS
+  COP     0.986    8      0.75    0.4015  PASS
+  OXY     0.994    3      0.28    0.0056  FAIL
+  CB      0.820    4      0.38    0.0196  FAIL
+  AIG     0.822    5      0.47    0.0539  PASS
+  MKL     0.749    3      0.28    0.0056  FAIL
+  EG      0.716    8      0.75    0.4015  PASS
+  TRV     0.805    4      0.38    0.0196  FAIL
+  SPY     0.984    8      0.75    0.4015  PASS
+  IEF     0.998    10     0.94    0.8517  PASS
+  USO     0.971    6      0.57    0.1220  PASS
+
+  OUTPUT FILES
+  C:\Users\Niraj\Downloads\Hormuz_Crisis_Risk_Engine
+  charts/   : 8 PNG charts (150 DPI)
+  outputs/  : 3 CSV files + summary TXT
+
+  K & T Quant Labs | Research Only | Not Financial Advice
+==========================================================

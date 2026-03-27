@@ -1,0 +1,11 @@
+metric,value
+war_risk_pre_pct,0.03
+war_risk_now_pct,0.75
+surge_multiple,25.0
+premium_pre_per_vlcc,36000.0
+premium_now_per_vlcc,900000.0
+gulf_fleet,270.0
+expected_attacks,13.5
+hull_loss_B,0.97
+cargo_loss_B,1.08
+total_exp_loss_B,2.05
